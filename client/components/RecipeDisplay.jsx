@@ -24,11 +24,6 @@ function RecipeDisplay(props) {
 
   // Button
 
-<<<<<<< HEAD
-  return (
-    <div>
-      <h1>Title</h1>
-=======
   // const dietLabels = [vegetarian, vegan, glutenFree, dairyFree].reduce((acc, ele, index) => {
   //   if (props[ele] === false) {
   //     acc.push(
@@ -51,15 +46,15 @@ function RecipeDisplay(props) {
 
   return (
     <div>
-      <Card className="p-3" style={{ flex: 1 }}>
+      <Card className='p-3' style={{ flex: 1 }}>
         <Card.Header>
           <strong>{props.recipe.title}</strong>
         </Card.Header>
         <Card.Img
-          variant="top"
+          variant='top'
           src={props.recipe.image}
           style={{ position: 'center', maxWidth: '50px' }}
-          alt="Food Img"
+          alt='Food Img'
         />
         <Card.Body>
           <Card.Text>
@@ -78,7 +73,6 @@ function RecipeDisplay(props) {
         <ListGroup horizontal>{dietLabels}</ListGroup>
       </Card.Footer> */}
       </Card>
->>>>>>> 1db94c7a71f06b725a91d8e0bfcc383730e1af64
     </div>
   );
 }
